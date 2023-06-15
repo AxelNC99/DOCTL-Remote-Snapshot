@@ -13,10 +13,7 @@ Learn about how I can came up with this idea: https://aaronweiss.me/automated-di
 	* [Configuration](#configuration)
 	* [Execution](#execution)
 	* [Cron](#cron)
-- [Notice](#notice)
-- [Roadmap](#roadmap)
 - [Thank Yous](#thank-yous)
-- [Change Log](#change-log)
 
 ## Requirements
 - [doctl](https://github.com/digitalocean/doctl#installing-doctl)
@@ -74,16 +71,6 @@ Consider adding this script to your crontab. Below is an example to run this scr
 ```
 0 1 * * 3 /bin/bash /usr/local/bin/auto_snapshot.bash -r
 ```
-## Notice
-As of 12/16/2019, Digital Ocean charges [$0.05/GB per month](https://www.digitalocean.com/docs/images/snapshots/). Contributors to this script are not liable for costs associated with running or maintaining a Digital Ocean account.  
-
-## Roadmap
-
- 1. ~~Have the option to only delete snapshots within the $DROPLETID.
-    Currently, this script will delete any image within the user's
-    account~~ (COMPLETED)
- 2. Find an elegant solution to allow for multiple droplets to be used separately.
- 3. Optionally create a screenshot of a website to show that the server/site is live after the script completed.
 
 ## Resources
 https://github.com/digitalocean/doctl#authenticating-with-digitalocean
