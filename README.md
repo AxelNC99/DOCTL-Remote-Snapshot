@@ -7,7 +7,6 @@ Learn about how I can came up with this idea: https://aaronweiss.me/automated-di
 
 ## Table of Contents
 - [Requirements](#requirements)
-- [Optional](#optional)
 - [Installation](#installation)
 - [Usage](#usage)
 	* [Configuration](#configuration)
@@ -16,9 +15,6 @@ Learn about how I can came up with this idea: https://aaronweiss.me/automated-di
 
 ## Requirements
 - [doctl](https://github.com/digitalocean/doctl#installing-doctl)
-
-## Optional
-- 'sendmail' SMTP configured to send email notifications
 
 ## Installation
 ```git clone https://github.com/AxelNC99/DOCTL-Remote-Snapshot.git```
