@@ -13,7 +13,6 @@ Learn about how I can came up with this idea: https://aaronweiss.me/automated-di
 	* [Configuration](#configuration)
 	* [Execution](#execution)
 	* [Cron](#cron)
-- [Thank Yous](#thank-yous)
 
 ## Requirements
 - [doctl](https://github.com/digitalocean/doctl#installing-doctl)
