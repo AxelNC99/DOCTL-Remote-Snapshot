@@ -25,7 +25,7 @@ Learn about how I can came up with this idea: https://aaronweiss.me/automated-di
 - 'sendmail' SMTP configured to send email notifications
 
 ## Installation
-```git clone https://github.com/aaronmweiss/DOCTL-Remote-Snapshot.git```
+```git clone https://github.com/AxelNC99/DOCTL-Remote-Snapshot.git```
 
 ## Usage
 
@@ -89,31 +89,4 @@ As of 12/16/2019, Digital Ocean charges [$0.05/GB per month](https://www.digital
 https://github.com/digitalocean/doctl#authenticating-with-digitalocean
 https://www.digitalocean.com/community/tutorials/how-to-use-doctl-the-official-digitalocean-command-line-client
 
-## Change log
-
-### February 27, 2021
-- Corrected retention issue
-- Added -p flag to cancel power-off
-- Added functions where necessary for brevity
-
-### February 14th, 2020
-- Added -r flag to cancel retention
-- Added test for droplet to be live based on IP before proceeding
-- Improved email notification
--- Including snapshot name created
--- Including snapshot names deleted
-- Changed log directory to /var/log/doctl-auto-snapshot
-- Changed log filename format
-- Removed dropletname variable from dodroplet.config in favor of using droplet's real name
-
-### January 22nd, 2020
-- Added snapshot name display for command line use
-- Improved config file sourcing
-- Improved snapshot listing to exclude backups from retention
-- Removed sudo execution requirement until further testing completed
-
-### January 8th, 2020
-- Ability to delete snapshots associated with the specific Droplet ID up to the amount assigned in the RETAIN variable assigned in dodroplet.config
-- Require sudo execution
-- Changed the user to $USER
 
